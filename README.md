@@ -120,7 +120,7 @@ assets/            README images
 
 Phantom is an unofficial, fan-made homebrew tool. It is not affiliated with or endorsed by Nintendo. It does not include any game content.
 <br>
-* Phantom was made with the help of AI (Claude) *
+--Phantom was made with the help of AI (Claude)--
 
 ## License
 
