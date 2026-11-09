@@ -8,7 +8,7 @@ Splits, personal bests, gold splits, touch controls, and your own game list, all
 <div align="center">
   <img src="PhantomFiles/Banner.png" width="220">
   <img src="PhantomFiles/LMDM_Screen.png" width="220">
-  <img src="PhantomFiles/qr.jpg" width="220">
+  <img src="PhantomFiles/LMDM_PB.png" width="220">
 </div>
 
 ![Platform](https://img.shields.io/badge/platform-Nintendo%203DS-3cb043)
