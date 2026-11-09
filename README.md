@@ -6,7 +6,7 @@
 Splits, personal bests, gold splits, touch controls, and your own game list, all on the console.
 
 <div align="center">
-  <img src="PhantomFiles/qr.jpg" width="220">
+  <img src="Banner.png" width="220">
   <img src="PhantomFiles/qr.jpg" width="220">
   <img src="PhantomFiles/qr.jpg" width="220">
 </div>
