@@ -116,9 +116,11 @@ assets/            README images
 - **Installed app won't launch:** rebuild the CIA with the `meta/cia.rsf` from this repo and install it over the old one with FBI.
 - **A game won't open:** check that its `splits.txt` exists and has at least one line.
 
-## Disclaimer
+## Disclaimers
 
 Phantom is an unofficial, fan-made homebrew tool. It is not affiliated with or endorsed by Nintendo. It does not include any game content.
+<br>
+* Phantom was made with the help of AI (Claude) *
 
 ## License
 
