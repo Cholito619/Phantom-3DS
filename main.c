@@ -264,10 +264,10 @@ static void audio_init(void) {
     } else {
         ch = 1; rate = MUSIC_RATE;
         audioBuf = generate_music(&n);
-        audioStatus = "Playing built-in tune";
+        audioStatus = "Playing Built-in Tune";
     }
     if (!audioBuf) {
-        audioStatus = "Not enough memory for music";
+        audioStatus = "Not Enough Memory for Music";
         ndspExit();
         return;
     }
@@ -662,7 +662,7 @@ static void draw_top_run(void) {
     if (state == STATE_IDLE) {
         draw_text("READY", 200, 124, 0.5f, C_PURPLE, ALIGN_CENTER, 0);
         draw_text(count > 0 ? names[0] : "", 200, 138, 0.85f, C_TEXT, ALIGN_CENTER, 340);
-        draw_text("Tap SPLIT or press A to start", 200, 172, 0.65f, C_DIM, ALIGN_CENTER, 0);
+        draw_text("Tap SPLIT or Press A to Start", 200, 172, 0.65f, C_DIM, ALIGN_CENTER, 0);
     } else if (state == STATE_RUNNING) {
         snprintf(line, sizeof line, "SPLIT %d OF %d", idx + 1, count);
         draw_text(line, 200, 124, 0.5f, C_PURPLE, ALIGN_CENTER, 0);
@@ -677,7 +677,7 @@ static void draw_top_run(void) {
         }
     } else {
         draw_text("RUN COMPLETE", 200, 124, 0.5f, C_PURPLE, ALIGN_CENTER, 0);
-        draw_text(isPB ? "NEW PERSONAL BEST!" : "Nice run!", 200, 138, 0.85f,
+        draw_text(isPB ? "NEW PERSONAL BEST!" : "Nice Run!", 200, 138, 0.85f,
                   isPB ? C_GOLD : C_TEXT, ALIGN_CENTER, 340);
         if (count > 0 && pb[count - 1] >= 0) {
             fmt_delta(buf, sizeof buf, finalTime - pb[count - 1]);
@@ -702,9 +702,9 @@ static void draw_top_run(void) {
 static void draw_top_welcome(void) {
     draw_bg(400);
     draw_ghost(200, 78, 4.0f);
-    draw_text("SPEEDRUN TIMER", 200, 128, 1.0f, C_TEXT, ALIGN_CENTER, 360);
-    draw_text(gameCount > 0 ? "Pick a game on the bottom screen"
-                            : "Create your first game to begin",
+    draw_text("PHANTOM", 200, 128, 1.0f, C_TEXT, ALIGN_CENTER, 360);
+    draw_text(gameCount > 0 ? "Pick a Game on the Bottom Screen"
+                            : "Create Your First Game to Begin",
               200, 172, 0.6f, C_DIM, ALIGN_CENTER, 360);
     C2D_DrawRectSolid(150, 164, Z, 100, 2, C_GREEN);
 }
