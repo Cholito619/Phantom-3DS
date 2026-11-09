@@ -5,6 +5,12 @@
 **A clean speedrun timer for the Nintendo 3DS.**
 Splits, personal bests, gold splits, touch controls, and your own game list, all on the console.
 
+<div align="center">
+  <img src="PhantomFiles/qr.jpg" width="220">
+  <img src="PhantomFiles/qr.jpg" width="220">
+  <img src="PhantomFiles/qr.jpg" width="220">
+</div>
+
 ![Platform](https://img.shields.io/badge/platform-Nintendo%203DS-3cb043)
 ![Requires](https://img.shields.io/badge/requires-Luma3DS-8e7cc3)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
