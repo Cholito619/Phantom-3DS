@@ -48,7 +48,7 @@ Developed and tested on a New Nintendo 3DS XL.
 On your 3DS, open **FBI → Remote Install → Scan QR Code** and point the camera at this code. FBI downloads and installs Phantom.
 
 <div align="center">
-  <img src="PhantomFiles/qr.jpg" alt="QR code to install Phantom with FBI" width="220">
+  <img src="PhantomFiles/qr.png" alt="QR code to install Phantom with FBI" width="220">
 </div>
 
 ### Option 2: Download the file
